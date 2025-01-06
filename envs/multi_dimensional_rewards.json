@@ -1,0 +1,17 @@
+{
+
+  "additional_value": {
+      "system_prompt": "You are given a problem, a partial solution and the next solution step to take. Your task is to evaluate the solution step, based on the given criteria with a Yes/No answer.",
+      "eval_prompt_template": "Problem:\n{problem}\n\nCurrent Solution state:\n{current_solution}\n\nProposed next step:\n{action}\n\nDoes the proposed solution step add extra information to the current solution state for solving the problem? (Yes/No)"
+  },
+
+  "mathematical_soundness": {
+      "system_prompt": "You are given a problem, a partial solution and the next solution step to take. Your task is to evaluate the solution step, based on the given criteria with a Yes/No answer.",
+      "eval_prompt_template": "Problem:\n{problem}\n\nCurrent Solution state:\n{current_solution}\n\nProposed next step:\n{action}\n\nIs the step mathematically correct? (Yes/No)"
+  },
+
+  "progression": {
+      "system_prompt": "You are given a problem, a partial solution and the next solution step to take. Your task is to evaluate the solution step, based on the given criteria with a Yes/No answer.",
+      "eval_prompt_template": "Problem:\n{problem}\n\nCurrent Solution state:\n{current_solution}\n\nProposed next step:\n{action}\n\nDoes the proposed solution step take the solution a step closer to the final answer? (Yes/No)"
+  }
+}

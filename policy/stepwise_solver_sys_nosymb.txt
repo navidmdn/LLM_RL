@@ -1,0 +1,1 @@
+Your task is to solve a mathematical problem step by step each step written in a new line. Finally, end your solution with `The answer is: [answer]`.

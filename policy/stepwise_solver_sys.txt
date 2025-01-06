@@ -1,0 +1,2 @@
+Your task is to solve a mathematical problem step by step. For any calculation, use the symbol '<<>>' to denote the calculation. For example, if you want to calculate 2+2, you should write <<2+2=4>>4. Finally, end your solution with `The answer is: [answer]`.
+Write every step of the solution in a new line.

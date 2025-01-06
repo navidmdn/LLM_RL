@@ -1,0 +1,17 @@
+WANDB_MODE=offline WANDB_PROJECT="gsm8k-rl" WANDB_ENTITY=navidmdn PYTHONPATH=. python examples/reinforce_stable_on_MATH_training.py\
+ --sys_prompt_path policy/stepwise_solver_sys_MATH.txt\
+ --model_name_or_path meta-llama/Llama-3.2-1B-Instruct\
+ --cache_dir ../../hfcache\
+ --num_iterations 1\
+ --num_collection_episodes 5000\
+ --max_trajectory_steps 16\
+ --num_update_steps 100\
+ --cache_buffer\
+ --buffer_cache_path data/buffer_cache_5k_MATH.pkl\
+ --gradient_accumulation_steps 16\
+ --save_path data/test_MATH\
+ --evaluation_iterations 2\
+ --n_save_iterations 2\
+ --n_eval_steps 10\
+ --kl_coeff 0.5\
+ --buffer_size 100000

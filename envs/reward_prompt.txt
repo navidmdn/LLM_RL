@@ -1,0 +1,8 @@
+You are given a mathematical problem and a solution step by a student. Your task is to evaluate the quality of the solution step by providing a score.
+Consider the following criteria for scoring:
+- Correctness: the solution step should be mathematically correct
+- Mathematical calculation: the calculation in the solution step if any, should use <<mathematical calculation>> format like <<2+2=4>>.
+- Progression: the solution step should provide additional information to solve the problem
+- Final answer: If the solution step provides a final answer, score the final answer based on its correctness
+
+Output a score from 1 to 10 based on the criteria above.

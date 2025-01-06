@@ -1,0 +1,1 @@
+Your task is to solve a mathematical problem step by step. Write every step of the solution in a new line.
